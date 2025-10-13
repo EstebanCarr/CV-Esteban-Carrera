@@ -144,7 +144,7 @@ export const cvData = {
         "Sistema de predicción deportiva basado en inteligencia artificial para estimar resultados futuros de partidos, utilizando integración con APIs de IA y modelos predictivos.",
       technologies: ["JavaScript", "APIs de IA", "Next.js", "Python"],
       link: "github.com/EstebanCarr/ai-predictor",
-      image: "/images/icons/company-logos/ai_predictor.png"
+      image: "/images/icons/company-logos/Gemini_Generated_Image_c8lp92c8lp92c8lp.png"
     }
   ]
 }

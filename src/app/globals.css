@@ -18,11 +18,79 @@ body {
 }
 
 @media print {
+  * {
+    -webkit-print-color-adjust: exact !important;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  
   body {
-    print-color-adjust: exact;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 12px;
+    line-height: 1.2;
+  }
+  
+  main {
+    margin: 0 !important;
+    padding: 0 !important;
   }
   
   .no-print {
     display: none !important;
+  }
+  
+  @page {
+    margin: 0;
+    size: A4;
+    @top-left { content: none; }
+    @top-center { content: none; }
+    @top-right { content: none; }
+    @bottom-left { content: none; }
+    @bottom-center { content: none; }
+    @bottom-right { content: none; }
+  }
+  
+  * {
+    page-break-inside: auto !important;
+  }
+  
+  .print-page {
+    margin: 0 !important;
+    padding: 5px !important;
+    max-width: none;
+  }
+  
+  .print-header {
+    margin-bottom: 5px;
+    padding: 5px;
+  }
+  
+  .print-section {
+    margin-bottom: 3px;
+    page-break-inside: auto;
+    page-break-after: avoid;
+  }
+  
+  .print-experience-item {
+    margin-bottom: 3px;
+    page-break-inside: auto;
+  }
+  
+  .print-project-grid {
+    display: block !important;
+  }
+  
+  .print-project-item {
+    margin-bottom: 3px;
+    page-break-inside: auto;
+  }
+  
+  .print-skills-grid {
+    display: block !important;
+  }
+  
+  .print-skills-section {
+    margin-bottom: 2px;
   }
 }

@@ -4,8 +4,8 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'CV Profesional',
-  description: 'Curriculum Vitae profesional desarrollado con Next.js',
+  title: 'Esteban Javier Carrera Salazar',
+  description: 'Curriculum Vitae de Esteban Javier Carrera Salazar - Ingeniero en TI',
 }
 
 export default function RootLayout({

@@ -9,10 +9,10 @@ interface SkillsProps {
 
 export default function Skills({ skills }: SkillsProps) {
   return (
-    <div className="grid md:grid-cols-2 gap-6">
-      <div>
-        <h3 className="text-lg font-semibold text-gray-800 mb-3">Habilidades Técnicas</h3>
-        <div className="flex flex-wrap gap-2">
+    <div className="grid md:grid-cols-2 gap-6 print-skills-grid print:gap-4">
+      <div className="print-skills-section">
+        <h3 className="text-lg font-semibold text-gray-800 mb-3 print:text-base print:mb-2">Habilidades Técnicas</h3>
+        <div className="flex flex-wrap gap-2 print:gap-1">
           {skills.technical.map((skill, index) => (
             <span
               key={index}
@@ -24,9 +24,9 @@ export default function Skills({ skills }: SkillsProps) {
         </div>
       </div>
       
-      <div>
-        <h3 className="text-lg font-semibold text-gray-800 mb-3">Habilidades Blandas</h3>
-        <div className="flex flex-wrap gap-2">
+      <div className="print-skills-section">
+        <h3 className="text-lg font-semibold text-gray-800 mb-3 print:text-base print:mb-2">Habilidades Blandas</h3>
+        <div className="flex flex-wrap gap-2 print:gap-1">
           {skills.soft.map((skill, index) => (
             <span
               key={index}

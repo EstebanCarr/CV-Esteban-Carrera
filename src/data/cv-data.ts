@@ -32,7 +32,7 @@ export const cvData = {
       location: "Monterrey, México",
       achievements: [
         "Enseñanza de programación y desarrollo web",
-        "Diseño de curriculum académico en tecnologías modernas",
+        "Diseño de currículum académico en tecnologías modernas",
         "Mentoría de estudiantes en proyectos de desarrollo",
         "Implementación de metodologías de enseñanza innovadoras"
       ]
@@ -68,13 +68,15 @@ export const cvData = {
       institution: "Universidad Tecnológica Cadereyta",
       degree: "Licenciatura en Ingeniería en Tecnologías de la Información",
       period: "2020 - 2024",
-      location: "Cadereyta, Nuevo León"
+      location: "Cadereyta, Nuevo León",
+      website: "utcadereyta.edu.mx"
     },
     {
       institution: "Universidad Tecnológica Cadereyta",
       degree: "Técnico Superior en Tecnología de la Información y Comunicación Multimedia y Comercio Electrónico",
       period: "2018 - 2020",
-      location: "Cadereyta, Nuevo León"
+      location: "Cadereyta, Nuevo León",
+      website: "utcadereyta.edu.mx"
     }
   ],
   
@@ -94,19 +96,22 @@ export const cvData = {
       name: "ECCSA Web Platform",
       description: "Página web corporativa desarrollada completamente desde cero para empresa de ingeniería, con diseño responsivo y funcionalidades avanzadas",
       technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
-      link: "eccsa-web.vercel.app"
+      link: "eccsa-web.vercel.app",
+      image: "/images/icons/company-logos/logo_eccsa.png"
     },
     {
       name: "ArenaTon Platform",
       description: "Desarrollo y mejora del front-end de plataforma web, optimizando interactividad y accesibilidad. Integración con APIs en tiempo real y diseño responsivo. Proyecto ganador en concurso de desarrollo web",
       technologies: ["React", "JavaScript", "CSS3", "APIs REST"],
-      link: "www.arenaton.com"
+      link: "www.arenaton.com",
+      image: "/images/icons/company-logos/Arenatonlogo.jpg"
     },
     {
       name: "Warpcast Frames - Sistema de Lotería",
-      description: "Sistema de lotería con frames interactivos para la red social Warpcast, utilizando NEXT.JS y frog.js. Diseño de interfaces y funcionalidades clave para experiencia interactiva optimizada",
+      description: "Sistema de lotería con frames interactivos para la red social Warpcast, utilizando Next.js y frog.js. Diseño de interfaces y funcionalidades clave para experiencia interactiva optimizada",
       technologies: ["Next.js", "Frog.js", "TypeScript", "Warpcast API"],
-      link: "github.com/EstebanCarr/warpcast-frames"
+      link: "github.com/EstebanCarr/warpcast-frames",
+      image: "/images/icons/company-logos/warcast.png"
     }
   ]
 }

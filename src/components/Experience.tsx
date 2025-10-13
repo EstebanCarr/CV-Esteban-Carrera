@@ -12,9 +12,9 @@ interface ExperienceProps {
 
 export default function Experience({ experience }: ExperienceProps) {
   return (
-    <div className="space-y-6">
+    <div className="space-y-6 print:space-y-3">
       {experience.map((job, index) => (
-        <div key={index} className="border-l-4 border-primary pl-6 relative">
+        <div key={index} className="border-l-4 border-primary pl-6 relative print-experience-item print:pl-4">
           <div className="absolute w-3 h-3 bg-primary rounded-full -left-2 top-1"></div>
           
           <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-2">
@@ -28,7 +28,7 @@ export default function Experience({ experience }: ExperienceProps) {
             </div>
           </div>
           
-          <ul className="list-disc list-inside space-y-1 text-gray-700">
+          <ul className="list-disc list-inside space-y-1 text-gray-700 print:text-black print:text-sm print:space-y-0">
             {job.achievements.map((achievement, idx) => (
               <li key={idx}>{achievement}</li>
             ))}

@@ -56,9 +56,22 @@ export const cvData = {
       ]
     },
     {
+      company: "CONALEP",
+      position: "Docente de Informática",
+      period: "2019 - 2022",
+      location: "Nuevo León, México",
+      achievements: [
+        "Impartición de clases en diferentes ámbitos de la enseñanza tecnológica",
+        "Enseñanza de AutoCAD para diseño técnico y arquitectónico",
+        "Capacitación en paquetería Office (Word, Excel, PowerPoint)",
+        "Desarrollo de material didáctico especializado en informática",
+        "Formación integral de estudiantes en competencias digitales"
+      ]
+    },
+    {
       company: "Grupo Milenio",
       position: "Programador",
-      period: "2020 - 2022",
+      period: "2018 - 2019",
       location: "Monterrey, México",
       achievements: [
         "Desarrollo de aplicaciones web y sistemas internos",

@@ -45,7 +45,9 @@ export default function Header({ personalInfo }: HeaderProps) {
             alt="Esteban Javier Carrera Salazar"
             width={150}
             height={150}
-            className="rounded-full border-4 border-white shadow-lg"
+            className="rounded-full border-4 border-white shadow-lg print:shadow-none"
+            priority
+            unoptimized
           />
         </div>
       </div>

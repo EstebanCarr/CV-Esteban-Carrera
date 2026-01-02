@@ -5,7 +5,7 @@ export const cvData = {
     email: "estebancarr522@gmail.com",
     phone: "+52 81 1682 3581",
     location: "Zona Sur, Monterrey, México",
-    linkedin: "linkedin.com/in/esteban-carrera",
+    linkedin: "https://www.linkedin.com/in/esteban-javier-carrera-salazar-306274268",
     github: "github.com/EstebanCarr",
     website: ""
   },

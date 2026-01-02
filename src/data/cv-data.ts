@@ -7,7 +7,7 @@ export const cvData = {
     location: "Zona Sur, Monterrey, México",
     linkedin: "linkedin.com/in/esteban-carrera",
     github: "github.com/EstebanCarr",
-    website: "esteban-portfolio.com"
+    website: ""
   },
   
   summary:

@@ -3,6 +3,7 @@ interface ExperienceItem {
   position: string
   period: string
   location: string
+  workMode: string
   achievements: string[]
 }
 
@@ -25,6 +26,9 @@ export default function Experience({ experience }: ExperienceProps) {
             <div className="text-sm text-gray-600 md:text-right">
               <div>{job.period}</div>
               <div>{job.location}</div>
+              <div className="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded-full inline-block mt-1 print:bg-gray-200 print:text-black print:px-1 print:py-0 print:rounded print:text-xs">
+                {job.workMode}
+              </div>
             </div>
           </div>
           

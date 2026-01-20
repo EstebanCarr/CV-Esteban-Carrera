@@ -19,9 +19,11 @@ export const cvData = {
       position: "Ingeniero Encargado de Ventas",
       period: "Junio 2024 - Enero 2026",
       location: "Monterrey, México",
+      workMode: "Presencial",
       achievements: [
         "Desarrollo completo de la página web corporativa desde cero",
         "Gestión y optimización de procesos de ventas",
+        "Gestor de ventas por Mercado Libre con mayor control sobre los e-commerce",
         "Implementación de soluciones tecnológicas para el área comercial",
         "Creación de plataforma web con Next.js para mejorar presencia digital"
       ]
@@ -31,6 +33,7 @@ export const cvData = {
       position: "Programador Jr",
       period: "Abril 2022 - Mayo 2025",
       location: "Monterrey, México",
+      workMode: "Home Office",
       achievements: [
         "Desarrollo y mejora del front-end de la plataforma web ArenaTon, optimizando interactividad y accesibilidad",
         "Integración con APIs en tiempo real y diseño responsivo",
@@ -46,6 +49,7 @@ export const cvData = {
       position: "Maestro de Programación",
       period: "Enero 2023 - Enero 2024",
       location: "Nuevo León, México",
+      workMode: "Presencial",
       achievements: [
         "Capacitación en tecnologías de la información",
         "Desarrollo de material educativo especializado",
@@ -60,6 +64,7 @@ export const cvData = {
       position: "Docente de Informática",
       period: "2019 - 2022",
       location: "Nuevo León, México",
+      workMode: "Presencial",
       achievements: [
         "Impartición de clases en diferentes ámbitos de la enseñanza tecnológica",
         "Enseñanza de AutoCAD para diseño técnico y arquitectónico",
@@ -73,6 +78,7 @@ export const cvData = {
       position: "Programador",
       period: "2018 - 2019",
       location: "Monterrey, México",
+      workMode: "Presencial",
       achievements: [
         "Desarrollo de aplicaciones web y sistemas internos",
         "Mantenimiento y optimización de plataformas existentes",

@@ -17,7 +17,7 @@ export const cvData = {
     {
       company: "ECCSA",
       position: "Ingeniero Encargado de Ventas",
-      period: "Junio 2024 - Presente",
+      period: "Junio 2024 - Enero 2026",
       location: "Monterrey, México",
       achievements: [
         "Desarrollo completo de la página web corporativa desde cero",
@@ -29,7 +29,7 @@ export const cvData = {
     {
       company: "Arenaton / Transportes Salma",
       position: "Programador Jr",
-      period: "2022 - 2025",
+      period: "Abril 2022 - Mayo 2025",
       location: "Monterrey, México",
       achievements: [
         "Desarrollo y mejora del front-end de la plataforma web ArenaTon, optimizando interactividad y accesibilidad",

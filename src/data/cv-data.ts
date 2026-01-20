@@ -24,6 +24,7 @@ export const cvData = {
         "Desarrollo completo de la página web corporativa desde cero",
         "Gestión y optimización de procesos de ventas",
         "Gestor de ventas por Mercado Libre con mayor control sobre los e-commerce",
+        "Asociado de ventas presenciales en empresas como Hussman, Alen, entre otros",
         "Implementación de soluciones tecnológicas para el área comercial",
         "Creación de plataforma web con Next.js para mejorar presencia digital"
       ]

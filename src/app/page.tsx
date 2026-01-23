@@ -8,6 +8,7 @@ import Skills from '@/components/Skills'
 import Projects from '@/components/Projects'
 import WebProjects from '@/components/WebProjects'
 import PrintButton from '@/components/PrintButton'
+import WhatsAppButton from '@/components/WhatsAppButton'
 import { cvData } from '@/data/cv-data'
 import { User, Briefcase, GraduationCap, Code, FolderOpen } from 'lucide-react'
 
@@ -51,6 +52,9 @@ export default function Home() {
             </WebSection>
           </div>
         </main>
+        
+        {/* Botón flotante de WhatsApp */}
+        <WhatsAppButton phone={cvData.personalInfo.whatsapp} />
       </div>
 
       {/* Versión PDF */}

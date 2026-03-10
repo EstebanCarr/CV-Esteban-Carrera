@@ -41,7 +41,7 @@ export default function Header({ personalInfo }: HeaderProps) {
         </div>
         <div className="ml-8">
           <Image
-            src="/ESTEBAN.jpeg"
+            src="/ESTEBAN.png"
             alt="Esteban Javier Carrera Salazar"
             width={150}
             height={150}

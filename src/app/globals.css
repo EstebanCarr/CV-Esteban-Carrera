@@ -18,88 +18,33 @@ body {
 }
 
 @media print {
+  @page {
+    size: A4;
+    margin: 8mm;
+  }
+  
   * {
     -webkit-print-color-adjust: exact !important;
     color-adjust: exact !important;
     print-color-adjust: exact !important;
   }
   
-  body {
-    margin: 0 !important;
-    padding: 0 !important;
-    font-size: 12px;
-    line-height: 1.2;
+  html, body {
+    font-family: 'Inter', Arial, sans-serif !important;
+    background: white !important;
   }
   
-  main {
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-  
+  button,
+  .print\:hidden,
   .no-print {
     display: none !important;
   }
   
-  @page {
-    margin: 0;
-    size: A4;
-    @top-left { content: none; }
-    @top-center { content: none; }
-    @top-right { content: none; }
-    @bottom-left { content: none; }
-    @bottom-center { content: none; }
-    @bottom-right { content: none; }
+  div, section, ul, li {
+    page-break-inside: avoid !important;
   }
   
-  * {
-    page-break-inside: auto !important;
-  }
-  
-  img {
-    max-width: 100% !important;
-    height: auto !important;
-    display: block !important;
-    -webkit-print-color-adjust: exact !important;
-    color-adjust: exact !important;
-    print-color-adjust: exact !important;
-  }
-  
-  .print-page {
-    margin: 0 !important;
-    padding: 5px !important;
-    max-width: none;
-  }
-  
-  .print-header {
-    margin-bottom: 5px;
-    padding: 5px;
-  }
-  
-  .print-section {
-    margin-bottom: 3px;
-    page-break-inside: auto;
-    page-break-after: avoid;
-  }
-  
-  .print-experience-item {
-    margin-bottom: 3px;
-    page-break-inside: auto;
-  }
-  
-  .print-project-grid {
-    display: block !important;
-  }
-  
-  .print-project-item {
-    margin-bottom: 3px;
-    page-break-inside: auto;
-  }
-  
-  .print-skills-grid {
-    display: block !important;
-  }
-  
-  .print-skills-section {
-    margin-bottom: 2px;
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid !important;
   }
 }

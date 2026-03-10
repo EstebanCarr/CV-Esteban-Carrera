@@ -2,6 +2,7 @@
 
 import { Mail, Phone, MapPin, Linkedin, Github, Globe, Download } from 'lucide-react'
 import Image from 'next/image'
+import { printCV } from '@/utils/printUtils'
 
 interface PersonalInfo {
   name: string
@@ -96,7 +97,7 @@ export default function WebHeader({ personalInfo }: WebHeaderProps) {
           <div className="relative">
             <div className="w-64 h-64 lg:w-80 lg:h-80 rounded-full bg-gradient-to-br from-white/20 to-white/5 backdrop-blur-sm p-4">
               <Image
-                src="/ESTEBAN.jpeg"
+                src="/ESTEBAN.png"
                 alt="Esteban Javier Carrera Salazar"
                 width={300}
                 height={300}
@@ -111,7 +112,7 @@ export default function WebHeader({ personalInfo }: WebHeaderProps) {
         
         <div className="mt-12 text-center">
           <button 
-            onClick={() => window.print()}
+            onClick={printCV}
             className="inline-flex items-center gap-2 bg-white text-blue-900 hover:bg-blue-50 px-8 py-3 rounded-full font-medium transition-all duration-300 hover:scale-105 shadow-lg"
           >
             <Download size={20} />

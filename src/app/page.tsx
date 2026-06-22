@@ -97,7 +97,7 @@ export default function Home() {
           <div style={{ marginBottom: '3mm' }}>
             <h3 style={{ fontSize: '11pt', fontWeight: 'bold', margin: 0, marginBottom: '2mm', color: '#1e40af', textTransform: 'uppercase', letterSpacing: '0.5pt', borderBottom: '2pt solid #1e40af', paddingBottom: '1mm' }}>Experiencia Profesional</h3>
             {cvData.experience.map((job, index) => (
-              <div key={index} style={{ marginBottom: '2.5mm', paddingLeft: '4mm', borderLeft: '2.5pt solid #3b82f6', position: 'relative', background: index % 2 === 0 ? '#ffffff' : '#f8fafc', padding: '2mm', paddingLeft: '4mm' }}>
+              <div key={index} style={{ marginBottom: '2.5mm', borderLeft: '2.5pt solid #3b82f6', position: 'relative', background: index % 2 === 0 ? '#ffffff' : '#f8fafc', padding: '2mm', paddingLeft: '4mm' }}>
                 <div style={{ position: 'absolute', left: '-4.5mm', top: '2mm', width: '7mm', height: '7mm', background: '#1e40af', borderRadius: '50%', border: '2pt solid white' }}></div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '1mm' }}>
                   <div style={{ flex: 1 }}>

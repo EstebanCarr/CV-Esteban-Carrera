@@ -16,6 +16,21 @@ export const cvData = {
   
   experience: [
     {
+      company: "Highlands International School Monterrey",
+      position: "Maestro Suplente de Design & Technology",
+      period: "Abril 2026 - Junio 2026",
+      location: "Monterrey, México",
+      workMode: "Presencial",
+      achievements: [
+        "Impartí la materia de Design & Technology a alumnos de 1° a 4° grado de primaria en escuela internacional bilingüe",
+        "Enseñé programación creativa con Scratch, desarrollando pensamiento lógico y habilidades computacionales desde edad temprana",
+        "Introduje robótica educativa con Cody Rocky, fomentando secuenciación y resolución de problemas en niños",
+        "Utilicé Canva y herramientas de diseño digital para desarrollar creatividad y expresión visual",
+        "Incorporé Pinion y plataformas educativas interactivas para dinamizar el aprendizaje",
+        "Adapté metodologías de enseñanza tecnológica para distintos niveles de edad y habilidad"
+      ]
+    },
+    {
       company: "ECCSA",
       position: "Ingeniero de Ventas y Desarrollo Web",
       period: "Junio 2024 - Enero 2026",

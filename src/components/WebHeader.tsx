@@ -97,7 +97,7 @@ export default function WebHeader({ personalInfo }: WebHeaderProps) {
           <div className="relative">
             <div className="w-64 h-64 lg:w-80 lg:h-80 rounded-full bg-gradient-to-br from-white/20 to-white/5 backdrop-blur-sm p-4">
               <Image
-                src="/ESTEBAN.png"
+                src="/images/ESTEBAN.jpg"
                 alt="Esteban Javier Carrera Salazar"
                 width={300}
                 height={300}

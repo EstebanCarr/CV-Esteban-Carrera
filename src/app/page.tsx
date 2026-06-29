@@ -73,7 +73,7 @@ export default function Home() {
             </div>
             <div style={{ marginLeft: '4mm' }}>
               <img 
-                src="/ESTEBAN.png" 
+                src="/images/ESTEBAN.jpg" 
                 alt="Foto" 
                 style={{ 
                   width: '28mm', 

@@ -12,7 +12,7 @@ export const cvData = {
   },
   
   summary:
-    "Ingeniero en TI con +6 años de experiencia en desarrollo frontend y soluciones web. Especializado en React, Next.js y TypeScript con historial comprobado en optimización de plataformas (+40% mejora en rendimiento) y desarrollo de sistemas innovadores con IA. Experiencia en e-commerce, Web 3.0 y gestión de proyectos desde concepto hasta producción. Combino habilidades técnicas con experiencia en ventas B2B y capacitación tecnológica.",
+    "Ingeniero en TI con más de 6 años de experiencia en desarrollo frontend y soluciones web. Especializado en React, Next.js y TypeScript con historial comprobado en optimización de plataformas y desarrollo de sistemas innovadores con IA. Experiencia en e-commerce, Web 3.0 y gestión de proyectos desde concepto hasta producción. Combino habilidades técnicas con experiencia en ventas B2B y capacitación tecnológica.",
   
   experience: [
     {
@@ -37,11 +37,11 @@ export const cvData = {
       location: "Monterrey, México",
       workMode: "Presencial",
       achievements: [
-        "Desarrollé página web corporativa completa con Next.js, incrementando leads digitales en 45%",
-        "Gestioné ventas B2B con empresas como Hussman y Alen, generando +$500K MXN en contratos",
-        "Implementé sistema de gestión de ventas en Mercado Libre, aumentando conversión de e-commerce en 35%",
-        "Optimicé procesos comerciales mediante soluciones tecnológicas, reduciendo tiempo de cotización en 50%",
-        "Coordiné estrategia digital que mejoró presencia online y posicionamiento de marca"
+        "Desarrollé página web corporativa completa con Next.js, logrando un incremento significativo en la generación de leads digitales",
+        "Gestioné relaciones comerciales B2B con empresas del sector industrial, cerrando contratos de alto valor",
+        "Implementé canal de ventas en Mercado Libre, mejorando considerablemente la conversión del e-commerce",
+        "Optimicé procesos comerciales mediante soluciones tecnológicas, reduciendo tiempos operativos de forma notable",
+        "Coordiné estrategia digital integral que fortaleció la presencia online y el posicionamiento de marca"
       ]
     },
     {
@@ -51,12 +51,12 @@ export const cvData = {
       location: "Monterrey, México",
       workMode: "Home Office",
       achievements: [
-        "Optimicé el rendimiento del front-end de ArenaTon, logrando 40% de mejora en tiempos de carga y aumentando la retención de usuarios en 25%",
-        "Desarrollé sistema de lotería interactiva 'Warpcast Frames' con Next.js y Frog.js, procesando +10,000 transacciones mensuales",
-        "Implementé integración con APIs en tiempo real y diseño responsivo, reduciendo errores de UI en 60%",
-        "Creé sistema de predicción deportiva con IA utilizando APIs de machine learning, alcanzando 75% de precisión en pronósticos",
-        "Lideré proyecto ganador en concurso de desarrollo web, compitiendo contra +50 equipos",
-        "Implementé arquitectura escalable con React, TypeScript y herramientas de IA, reduciendo tiempo de desarrollo en 30%"
+        "Optimicé el rendimiento del front-end de ArenaTon, logrando mejoras significativas en tiempos de carga y retención de usuarios",
+        "Desarrollé sistema de lotería interactiva 'Warpcast Frames' con Next.js y Frog.js, procesando un alto volumen de transacciones mensuales",
+        "Implementé integración con APIs en tiempo real y diseño responsivo, reduciendo considerablemente los errores de interfaz",
+        "Creé sistema de predicción deportiva con IA utilizando APIs de machine learning con alta precisión en pronósticos",
+        "Lideré proyecto ganador en concurso de desarrollo web frente a equipos de distintas empresas",
+        "Implementé arquitectura escalable con React, TypeScript y herramientas de IA, optimizando los tiempos de desarrollo"
       ]
     },
     {
@@ -66,10 +66,10 @@ export const cvData = {
       location: "Nuevo León, México",
       workMode: "Presencial",
       achievements: [
-        "Capacité a +120 estudiantes en tecnologías de programación con 95% de satisfacción",
+        "Capacité a grupos numerosos de estudiantes en tecnologías de programación con altos índices de satisfacción",
         "Desarrollé curriculum especializado en C++, Scratch y desarrollo de videojuegos",
-        "Implementé programas de capacitación técnica que mejoraron competencias digitales en 80%",
-        "Creé material educativo interactivo utilizado por 5+ instructores"
+        "Implementé programas de capacitación técnica que mejoraron las competencias digitales de los alumnos de forma notable",
+        "Creé material educativo interactivo adoptado por otros instructores del programa"
       ]
     },
     {
@@ -79,9 +79,9 @@ export const cvData = {
       location: "Nuevo León, México",
       workMode: "Presencial",
       achievements: [
-        "Impartí clases a +300 estudiantes en AutoCAD, Office y competencias digitales",
+        "Impartí clases a grupos de estudiantes en AutoCAD, Office y competencias digitales",
         "Desarrollé material didáctico especializado adoptado por el departamento académico",
-        "Logré 90% de aprobación en certificaciones de Microsoft Office",
+        "Logré altos índices de aprobación en certificaciones de Microsoft Office",
         "Formé estudiantes en diseño técnico y arquitectónico con AutoCAD"
       ]
     },
@@ -92,8 +92,8 @@ export const cvData = {
       location: "Monterrey, México",
       workMode: "Presencial",
       achievements: [
-        "Desarrollé y mantuve aplicaciones web internas para +200 usuarios",
-        "Optimicé plataformas existentes, mejorando velocidad de respuesta en 35%",
+        "Desarrollé y mantuve aplicaciones web internas para una base amplia de usuarios internos",
+        "Optimicé plataformas existentes, mejorando la velocidad de respuesta de forma considerable",
         "Colaboré en proyectos de transformación digital del área editorial",
         "Implementé mejores prácticas de desarrollo y control de versiones con Git"
       ]

@@ -2,7 +2,7 @@
 
 import { Mail, Phone, MapPin, Linkedin, Github, Globe, Download } from 'lucide-react'
 import Image from 'next/image'
-import { printCV } from '@/utils/printUtils'
+import { generateCV } from '@/utils/generateCV'
 
 interface PersonalInfo {
   name: string
@@ -112,7 +112,7 @@ export default function WebHeader({ personalInfo }: WebHeaderProps) {
         
         <div className="mt-12 text-center">
           <button 
-            onClick={printCV}
+            onClick={() => generateCV()}
             className="inline-flex items-center gap-2 bg-white text-blue-900 hover:bg-blue-50 px-8 py-3 rounded-full font-medium transition-all duration-300 hover:scale-105 shadow-lg"
           >
             <Download size={20} />
